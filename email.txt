@@ -1,0 +1,15 @@
+# Jenkins Email Notification Setup
+
+## Steps to Configure Email Notifications in Jenkins
+1. Go to Manage Jenkins → Configure System.
+2. Scroll down to E-mail Notification.
+3. Enter SMTP server details (e.g., smtp.gmail.com for Gmail).
+4. Provide authentication credentials if required.
+5. Test the configuration.
+6. Add Editable Email Notification in the Freestyle Job.
+7. Set up recipients and customize email content.
+8. Run the job to verify email notifications.
+
+## Notes
+- Ensure SMTP is enabled in your email account.
+- Jenkins should be able to access the SMTP server.
